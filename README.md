@@ -1,2 +1,2 @@
-# Analyzing financial data with Python and Rust
+# Machine Learning Applied to Stock & Crypto Trading
 
