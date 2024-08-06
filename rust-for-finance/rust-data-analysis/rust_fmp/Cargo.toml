@@ -1,8 +1,0 @@
-[package]
-name = "rust_fmp"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-fmp = "0.2.3"
-tokio = { version = "1.38.0", features = ["full"] }
