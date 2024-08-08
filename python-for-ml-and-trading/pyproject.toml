@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter = "^1.0.0"
+yfinance = "^0.2.41"
+pandas-datareader = "^0.10.0"
+xgboost = "^2.1.1"
 
 
 [build-system]
