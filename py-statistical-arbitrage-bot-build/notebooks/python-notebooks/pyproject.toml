@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-for-finance"
+name = "python-notebooks"
 version = "0.1.0"
 description = ""
 authors = ["mindeleven <mindeleven@posteo.de>"]
@@ -7,12 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-requests = "^2.32.3"
-numpy = "^1.26.4"
-pandas = "^2.2.2"
 jupyter = "^1.0.0"
-ipykernel = "^6.29.4"
+notebook = "^7.2.1"
+pandas = "^2.2.2"
 seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+numpy = "^2.1.0"
 
 
 [build-system]
