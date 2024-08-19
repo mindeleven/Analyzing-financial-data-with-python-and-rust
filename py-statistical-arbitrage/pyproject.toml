@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-notebooks"
+name = "py-statistical-arbitrage"
 version = "0.1.0"
 description = ""
 authors = ["mindeleven <mindeleven@posteo.de>"]

@@ -1,0 +1,1 @@
+print("statisticl arbitrage strategy")
