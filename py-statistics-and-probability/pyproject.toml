@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py-statistics-and-probability"
+version = "0.1.0"
+description = ""
+authors = ["mindeleven <mindeleven@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+numpy = "^2.1.1"
+pandas = "^2.2.2"
+scipy = "^1.14.1"
+yfinance = "^0.2.43"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
