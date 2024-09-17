@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+jupyter = "^1.1.1"
+requests = "^2.32.3"
+pandas = "^2.2.2"
 
 
 [build-system]
