@@ -10,6 +10,8 @@ python = "^3.12"
 jupyter = "^1.1.1"
 requests = "^2.32.3"
 pandas = "^2.2.2"
+plotly = "^5.24.1"
+ipywidgets = "^8.1.5"
 
 
 [build-system]
