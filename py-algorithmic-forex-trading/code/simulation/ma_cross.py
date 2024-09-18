@@ -49,7 +49,7 @@ def is_trade(row):
 
 def load_price_data(pair, granularity, ma_list):
     # load the data frame for pair and granularity granularity
-    df = pd.read_pickle(f"./assets/data/{pair}_{granularity}.pkl")
+    df = pd.read_pickle(f"../assets/data/{pair}_{granularity}.pkl")
     # calculate moving averages
     for ma in ma_list:
         df[get_ma_col(ma)] = df.mid_c.rolling(window=ma).mean()
@@ -180,9 +180,9 @@ def run_ma_sim(
     granularity=["H1", "H4"],
     ma_long=[20, 40, 80, 120, 150],
     ma_short=[10, 20, 30, 40],
-    filepath="../data"
+    filepath="../assets/data"
 ):
-    ic.LoadInstruments("../data")
+    ic.LoadInstruments("../assets/data")
     for g in granularity:
         for p1 in curr_list:
             for p2 in curr_list:
