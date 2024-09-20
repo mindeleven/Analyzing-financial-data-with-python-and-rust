@@ -16,6 +16,7 @@ jupyter = "^1.1.1"
 seaborn = "^0.13.2"
 urllib3 = "^2.2.3"
 nasdaq-data-link = "^1.0.4"
+tstables = "^0.0.15"
 
 
 [build-system]
