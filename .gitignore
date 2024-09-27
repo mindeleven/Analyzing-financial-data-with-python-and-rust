@@ -1,5 +1,6 @@
 **/hdf_store/
 **/.DS_Store
+**/.cache/
 
 # virtual environments
 **/env/
