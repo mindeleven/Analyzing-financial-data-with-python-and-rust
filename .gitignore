@@ -1,6 +1,9 @@
 **/hdf_store/
 **/.DS_Store
 
+# virtual environments
+**/env/
+
 # IPython Notebook
 .ipynb_checkpoints
 
