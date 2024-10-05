@@ -4,6 +4,10 @@
 
 # virtual environments
 **/env/
+**/.env_llm/
+
+# coding folder created by llm
+**/coding/
 
 # IPython Notebook
 .ipynb_checkpoints
