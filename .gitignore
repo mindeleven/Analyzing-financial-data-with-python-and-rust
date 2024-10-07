@@ -8,6 +8,7 @@
 
 # coding folder created by llm
 **/coding/
+**/coding_backup/
 
 # IPython Notebook
 .ipynb_checkpoints
