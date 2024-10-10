@@ -85,7 +85,7 @@ critic = autogen.AssistantAgent(
 )
 
 legal_reviewer = autogen.AssistantAgent(
-    name="Legal Reviewer",
+    name="Legal_Reviewer",
     llm_config=llm_config,
     system_message="You are a legal reviewer, known for "
         "your ability to ensure that content is legally compliant "
@@ -96,7 +96,7 @@ legal_reviewer = autogen.AssistantAgent(
 )
 
 consistency_reviewer = autogen.AssistantAgent(
-    name="Consistency reviewer",
+    name="Consistency_reviewer",
     llm_config=llm_config,
     system_message="You are a consistency reviewer, known for "
         "your ability to ensure that the written content is consistent throughout the report. "
@@ -108,7 +108,7 @@ consistency_reviewer = autogen.AssistantAgent(
 )
 
 textalignment_reviewer = autogen.AssistantAgent(
-    name="Text alignment reviewer",
+    name="Text_alignment_reviewer",
     llm_config=llm_config,
     system_message="You are a text data alignment reviewer, known for "
         "your ability to ensure that the meaning of the written content is aligned "
@@ -121,7 +121,7 @@ textalignment_reviewer = autogen.AssistantAgent(
 )
 
 completion_reviewer = autogen.AssistantAgent(
-    name="Completion Reviewer",
+    name="Completion_Reviewer",
     llm_config=llm_config,
     system_message="You are a content completion reviewer, known for "
         "your ability to check that financial reports contain all the required elements. "
@@ -135,7 +135,7 @@ completion_reviewer = autogen.AssistantAgent(
 )
 
 meta_reviewer = autogen.AssistantAgent(
-    name="Meta Reviewer",
+    name="Meta_Reviewer",
     llm_config=llm_config,
     system_message="You are a meta reviewer, you aggregate and review "
     "the work of other reviewers and give a final suggestion on the content.",
@@ -239,5 +239,5 @@ chat_results = autogen.initiate_chats(
     ]
 )
 
-import pprint
-pprint.pprint(chat_results.cost)
+#import pprint
+#pprint.pprint(chat_results.get_cost())
