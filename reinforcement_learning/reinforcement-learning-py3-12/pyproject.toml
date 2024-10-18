@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "reinforcement-learning-py3-12"
+version = "0.1.0"
+description = ""
+authors = ["mindeleven <mindeleven@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+lab = "^8.2"
+gym = "0.26.2"
+matplotlib = "^3.9.2"
+gymnasium = {extras = ["classic-control"], version = "^1.0.0"}
+numpy = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
