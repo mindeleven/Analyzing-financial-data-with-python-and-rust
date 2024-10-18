@@ -1,6 +1,6 @@
 llm_config = {
     "model": "gpt-4o", 
-    "api_key": "sk-proj-GjIUEqAKI2j04dlC18rZT3BlbkFJnLTC5AeosFLwmSAxKzNU"
+    "api_key": ""
     }
 
 

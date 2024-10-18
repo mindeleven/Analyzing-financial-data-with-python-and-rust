@@ -5,7 +5,7 @@ from autogen import ConversableAgent
 
 llm_config = {
     "model": "gpt-3.5-turbo", 
-    "api_key": "sk-proj-GjIUEqAKI2j04dlC18rZT3BlbkFJnLTC5AeosFLwmSAxKzNU"
+    "api_key": ""
     }
 
 jack = ConversableAgent(
