@@ -13,6 +13,10 @@ gym = "0.26.2"
 matplotlib = "^3.9.2"
 gymnasium = {extras = ["classic-control"], version = "^1.0.0"}
 numpy = "^2.1.2"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+swig = "^4.2.1"
 
 
 [build-system]
