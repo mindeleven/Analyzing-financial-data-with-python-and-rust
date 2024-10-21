@@ -10,6 +10,8 @@ python = "^3.12"
 jupyter = "^1.1.1"
 pandas = "^2.2.3"
 openai = "^1.52.0"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
 
 
 [build-system]
