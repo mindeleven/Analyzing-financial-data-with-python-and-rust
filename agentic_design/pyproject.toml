@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "agentic-design"
+version = "0.1.0"
+description = ""
+authors = ["mindeleven <mindeleven@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+autogen = "^0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
