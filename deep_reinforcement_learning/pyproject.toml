@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py-reinforcement-learning-algo-trading"
+name = "deep-reinforcement-learning"
 version = "0.1.0"
 description = ""
 authors = ["mindeleven <mindeleven@posteo.de>"]
@@ -8,11 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter = "^1.1.1"
-numpy = "^2.1.1"
-pandas = "^2.2.2"
-seaborn = "^0.13.2"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
 matplotlib = "^3.9.2"
-gymnasium = {extras = ["box2d"], version = "^0.29.1"}
+gymnasium = "^1.0.0"
+pygame = "^2.6.1"
 
 
 [build-system]
