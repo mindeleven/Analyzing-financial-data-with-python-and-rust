@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dive-into-deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["mindeleven <mindeleven@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+torch = "2.0.0"
+torchvision = "0.15.1"
+d2l = "1.0.3"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
