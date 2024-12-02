@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "algorithmic-trading"
+version = "0.1.0"
+description = ""
+authors = ["mindeleven <mindeleven@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+numpy = "^2.1.2"
+pybit = "^5.8.0"
+ipykernel = "^6.29.5"
+quandl = "^3.7.0"
+tables = "^3.10.1"
+urllib3 = "^2.2.3"
+nasdaq-data-link = "^1.0.4"
+tstables = {git = "https://github.com/yhilpisch/tstables.git"}
+yfinance = "^0.2.50"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
