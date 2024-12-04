@@ -20,6 +20,7 @@ urllib3 = "^2.2.3"
 nasdaq-data-link = "^1.0.4"
 tstables = {git = "https://github.com/yhilpisch/tstables.git"}
 yfinance = "^0.2.50"
+scipy = "^1.14.1"
 
 
 [build-system]
